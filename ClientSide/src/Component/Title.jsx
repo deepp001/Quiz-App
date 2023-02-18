@@ -17,18 +17,6 @@ const Title = () => {
           </button>
         </div>
       </div>
-      {/* <div className="flex flex-1 justify-between items-center my-14 px-14">
-        <div className="flex justify-around rounded-sm  bg-[#F4F3F6] h-[35px] w-[95.45px]">
-          <img src={headerImg} alt="/" />
-          <h1 className="text-titleColor font-semibold text-[22.27px]">200</h1>
-        </div>
-        <h1 className="font-semibold text-[24px]">Fantacy Quiz #156</h1>
-        <div className="pr-[60px]">
-          <button type="button" className="rounded-full bg-[#F4F3F6]">
-            <img src={Cross} alt="" />
-          </button>
-        </div>
-      </div> */}
     </>
   );
 };

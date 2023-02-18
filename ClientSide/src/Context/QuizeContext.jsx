@@ -35,7 +35,6 @@ export function QuizeProvider(props) {
     async (setResult) => {
       const res = await axiosInstance.post("questions/checkAns", ansList);
       setResult(res.data);
-      // navigate("/result");
     },
     [ansList]
   );

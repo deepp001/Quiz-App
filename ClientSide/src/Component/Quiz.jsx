@@ -71,15 +71,6 @@ const Box = ({ navigate }) => {
                 <div>
                   <img src={imageIcon} alt="" />
                 </div>
-                {/* <input
-                  type="radio"
-                  name="options"
-                  // className="sr-only"
-                  checked={option.id === ans}
-                  onChange={() => {
-                    setAns(option.id);
-                  }}
-                /> */}
                 <div className="flex items-center gap-5">
                   <p className="font- text-[24px]">{option.text}</p>
                   <p className="font-semibold text-[20px]">{option.text2}</p>

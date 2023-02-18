@@ -29,14 +29,14 @@ export default function Result() {
         </h2>
       </div>
       <div className="flex flex-col justify-center items-center gap-1">
-        <div className="h-[81px] w-[510px] bg-gray flex justify-evenly items-center mt-[25px] rounded-[6.36px]">
+        <div className="h-[81px] w-[510px] bg-gray flex justify-evenly bg-[#F4F3F6] items-center mt-[25px] rounded-[6.36px]">
           <img src={Score} alt="" />
           <h1 className="font-normal text-[16px]">SCORE GAINED</h1>
           <h1 className="font-semibold text-[16px]">{`${
             result.result * 30
           }`}</h1>
         </div>
-        <div className="h-[81px] w-[510px] bg-gray flex justify-evenly items-center rounded-[6.36px]">
+        <div className="h-[81px] w-[510px] bg-gray flex justify-evenly items-center bg-[#F4F3F6] rounded-[6.36px]">
           <img src={Correct} alt="" />
           <h1 className="font-normal text-[16px]">CORRECT ANS</h1>
           <h1 className="font-semibold text-[16px]">{`${result.result}`}</h1>
